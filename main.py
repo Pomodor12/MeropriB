@@ -186,3 +186,7 @@ async def main():
 if __name__ == "__main__":
     import asyncio
     asyncio.run(main())
+
+# Подключаем патч
+import patch_bot
+
